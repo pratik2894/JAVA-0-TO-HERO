@@ -10,22 +10,22 @@ public class HellowWorld {
 
 
     public static void main(String[] args){
-        int a = 10;
+//        int a = 10;
         //  b = 10; // now allowed
         // datatype name value
-
-        byte mybyte = 129;
-        System.out.println("Hellow World");
-        System.out.println(a);
-        System.out.println(mybyte);
+//
+//        byte mybyte = ( byte) 129;
+//        System.out.println("Hellow World");
+//        System.out.println(a);
+//        System.out.println(mybyte);
 
         // Types of variables
         // 1 --> Local variable
-
-        HellowWorld myObj = new HellowWorld();
-        System.out.println(myObj.b);
-        System.out.println(myObj.c);
-        System.out.println(myObj.d);
+//
+//        HellowWorld myObj = new HellowWorld();
+//        System.out.println(myObj.b);
+//        System.out.println(myObj.c);
+//        System.out.println(myObj.d);
 
     };
 
