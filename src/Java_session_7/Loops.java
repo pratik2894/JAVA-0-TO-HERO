@@ -143,4 +143,63 @@ public class Loops {
 
     }
 
+    //*
+    //* *
+    //* * *
+    //* * * *
+    //* * * * *
+
+    // ROW's : 5
+    // COL'S : 5
+    // for(int i = 1 ; i<= 5 ; i++){
+    //     for(int j = 1 ; j<=i ; j++ ){
+    //         System.out.print("* ");
+    //     }
+    //     System.out.println();
+    // }
+
+    // INVERTED TRIANGLE PATTERN
+
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *
+
+    // COL : 5
+    // ROW : 5
+    // int size = 5;
+    // for(int i = 1 ; i<=size ; i++){
+    //     for(int j = 1 ; j<=size-i+1 ; j++){
+    //         System.out.print("* ");
+    //     }
+    //     System.out.println();
+    // }
+
+//        *
+//      * *
+//    * * *
+//  * * * *
+//* * * * *
+
+// row : 5
+// col : 5
+    // int size = 5;
+    // for(int i = 1 ; i<=5 ; i++){
+    //     for(int j = 1 ; j<=size-i+1;j++){
+    //         System.out.print("  ");
+    //     }
+    //     for(int k= 1 ; k<= i ; k++){
+    //         System.out.print("* ");
+    //     }
+    //     System.out.println();
+    // }
+
+// Triangle pattern
+
+    //    *
+    //   * *
+    //  * * *
+    // * * * *
+
 }
