@@ -1,5 +1,5 @@
 package Java_session_8;
-
+import java.util.Arrays;
 class ArrayPractice {
 
 
@@ -45,7 +45,71 @@ class ArrayPractice {
         if(flag == 0){
             System.out.println("Element is not present in the array");
         }
+        // 2-D array
+        // x -----
+        // Y |
 
+
+
+        // How we can access the elements from 2-D array
+        // System.out.println(myArr[1][0]);
+        // [[I@7ff2a664 --> myArr
+        // [I@3f200884 --> myArr[0]
+        // myArr[0][0]) --> 1
+
+        // Using for loop in 2-D array
+
+        // for( int i = 0 ; i<3 ; i++ ){
+        //     for(int j = 0 ; j<3 ; j++){
+        //         System.out.print(myArr[i][j] + "  ");
+        //     }
+        //     System.out.println();
+        // }
+
+        //    int[][] myArr = {
+        //     {1 , 2 , 3},
+        //     {4 , 5 , 6},
+        //     {7 , 8 , 9}
+        // };
+
+        // for(int i = 0 ; i<3 ; i++){
+        //     for(int j = 0 ; j< 3 ; j++){
+        //         System.out.print(myArr[i][j] + "  ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // Find max-element in array
+        // Fid min-element in array
+        // int [] arr = {8 , 2 , 10 , 5};
+        // int max = arr[0];
+        // for(int i = 0 ; i<arr.lenght() ; i++){
+        //     if(arr[i] < max){
+        //         max = arr[i];
+        //     }
+        // }
+        // System.out.println("Maximum element in the array is : " + max);
+
+
+        // Arrays utility class
+        // In java we don't have any in-buit method for Array's
+        // java.util.Arrays;
+
+        // sort() : It will sort all the element of array
+        // --> 10 , 0 , 11 , 9  --> sorted --> 0 , 9 , 10 , 11
+        // length() : It will give you the length of array
+        // clone() : it will generate the shallow copy of the array
+        // toString() : it will print array in string format
+        // binarySearch(arr , key) : it will search the element in array using binary search
+        // fill (arr , value) :  Fill all elements with one value
+
+        int [] arr = {10 , 0 , 1 , 11 , 20};
+        Arrays.sort(arr);
+        // System.out.println(Arrays.toString(arr));
+        // System.out.println(arr.length);
+        System.out.println("Element found at index : " +  Arrays.binarySearch(arr , 20));
+        Arrays.fill(arr , 3);
+        System.out.println(Arrays.toString(arr));
     }
 
 }
