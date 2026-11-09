@@ -1,4 +1,5 @@
 package Java_session_8;
+import java.lang.reflect.Array;
 import java.util.Arrays;
 class ArrayPractice {
 
@@ -104,6 +105,7 @@ class ArrayPractice {
         // fill (arr , value) :  Fill all elements with one value
 
         int [] arr = {10 , 0 , 1 , 11 , 20};
+        // Arrays a = new Arrays();
         Arrays.sort(arr);
         // System.out.println(Arrays.toString(arr));
         // System.out.println(arr.length);
