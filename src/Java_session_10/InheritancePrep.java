@@ -38,6 +38,8 @@ class Child extends MyParent {
 
     public static void main(String[] args) {
         Child mychild1 = new Child();
+        Child mychild2 = new Child();
+
 
         mychild1.car();
         System.out.println(mychild1.car);
@@ -47,8 +49,10 @@ class Child extends MyParent {
     // Heap
     // new --> JVM --> Memory --> Create new block of space --> Assign the value to that block
     // X00000 : mychild;
+    // X00001 : Child ( value )
     // X00001 : value ;
-    // stack : mychild
+    // stack : mychild1
+    // stack : mychild2;
 
     // what is class and object's
 
