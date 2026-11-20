@@ -96,8 +96,10 @@ public class StringPrep {
         // Thread safe : at a time more than one thread cannot access the string : t1 --> "Java"
         // Thread unsafe : at a time more than one thread can access the string : t1 , t2 , t3 --> "Java"
 
-
-
+        // "Pratik Mohite" <-- secure at
+        //
+        // Queue : 1 , 2 , 3
+        // Bhandara : 1 , 2 , 3  //
     }
 
 }
